@@ -35,7 +35,7 @@ def videoSearch(que: str | None) -> list[dict]:
         part="snippet",
         q= que,
         maxResults=1
-       )
+    )
     
     response = request.execute()
     return response
